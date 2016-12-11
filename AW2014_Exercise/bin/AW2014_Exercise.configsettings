@@ -3,34 +3,30 @@
     <DataSources>
       <DataSource>
         <ID>Adventure Works DW2014</ID>
-        <ConnectionString>Provider=SQLNCLI11.1;Data Source=.;Integrated Security=SSPI;Initial Catalog=AdventureWorks2014</ConnectionString>
+        <ConnectionString>Provider=SQLNCLI11.1;Data Source=.\SQLServer14;Integrated Security=SSPI;Initial Catalog=AdventureWorks2014</ConnectionString>
         <ImpersonationInfo>
-          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">ImpersonateAccount</ImpersonationMode>
-          <Account xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">admin</Account>
-          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">PasswordRemoved</ImpersonationInfoSecurity>
+          <ImpersonationMode xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Default</ImpersonationMode>
+          <ImpersonationInfoSecurity xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">Unchanged</ImpersonationInfoSecurity>
         </ImpersonationInfo>
       </DataSource>
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>Product</ID>
-      </Dimension>
-      <Dimension>
         <ID>Date</ID>
       </Dimension>
       <Dimension>
-        <ID>Territory</ID>
+        <ID>Product</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
       <Cube>
-        <ID>SalesCube</ID>
+        <ID>Sales</ID>
         <MeasureGroups>
           <MeasureGroup>
-            <ID>v Fact Sales</ID>
+            <ID>Sales</ID>
             <Partitions>
               <Partition>
-                <ID>v Fact Sales</ID>
+                <ID>Sales</ID>
               </Partition>
             </Partitions>
           </MeasureGroup>

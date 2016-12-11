@@ -1,8 +1,8 @@
 ﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
   <Target>
     <Database>AW2014_Exercise</Database>
-    <Server>localhost</Server>
-    <ConnectionString>DataSource=localhost;Timeout=0</ConnectionString>
+    <Server>.\SQLSERVER14</Server>
+    <ConnectionString>DataSource=.\SQLSERVER14;Timeout=0</ConnectionString>
   </Target>
   <Options>
     <TransactionalDeployment>false</TransactionalDeployment>
@@ -19,50 +19,43 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>qhjN9yzbSEAYQh9m5OoFNnHB8kQ=7/12/2016 10:17:20 PM6/12/2016 9:03:29 PM</TimeStamp>
+        <TimeStamp>/acHiZuzKep2evG6f1duqkRTtTU=12/10/2016 8:34:40 PM12/10/2016 7:29:40 PM</TimeStamp>
         <ID>
           <String>Adventure Works DW2014</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>Mn3/HcrO6Exu5rNW1KdqKbj2voI=7/12/2016 10:12:47 PM7/12/2016 9:56:54 PM</TimeStamp>
+        <TimeStamp>ii5b9N6g1SoGRqYa8rC115uyZv0=12/10/2016 8:28:45 PM12/10/2016 8:21:45 PM</TimeStamp>
         <ID>
-          <String>AW2014_DSV</String>
+          <String>AdventureWorks2014_DSV</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>fbkwfH2sVoMyr0a9q5snPN1T7MY=11/12/2016 12:08:07 PM7/12/2016 10:04:33 PM</TimeStamp>
-        <ID>
-          <String>Product</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>2Xq4oC6JqEv7kr6vmxXYpq9pGxQ=11/12/2016 11:03:21 AM7/12/2016 11:03:18 PM</TimeStamp>
+        <TimeStamp>EZJ1I7mIIU/Stjt0AVx1q/+uJuw=12/10/2016 8:53:50 PM12/10/2016 7:29:40 PM</TimeStamp>
         <ID>
           <String>Date</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>vMH2so8goKfgZ9fnL9lRk+/TRZE=11/12/2016 12:07:35 PM7/12/2016 10:18:36 PM</TimeStamp>
+        <TimeStamp>HS84lRwxPJC6XYMJi82r7krDeKA=12/10/2016 8:53:50 PM12/10/2016 8:29:48 PM</TimeStamp>
         <ID>
-          <String>Territory</String>
+          <String>Product</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>Y4W2fWbtcc9F1oieQcZsVx4oyAA=11/12/2016 12:07:35 PM7/12/2016 10:22:37 PMDRvomoFgYIHwhl0FGQwlMJ3YITI=7/12/2016 10:30:17 PM7/12/2016 10:22:37 PM</TimeStamp>
+        <TimeStamp>3tsAOn2VToBtf+4/FpfpQ2A3B84=12/10/2016 8:58:19 PM12/10/2016 8:47:46 PMubOQsS1bN/gJjuJE1jBfiprnvUA=12/10/2016 8:56:05 PM12/10/2016 8:47:46 PM</TimeStamp>
         <ID>
-          <String>SalesCube</String>
+          <String>Sales</String>
         </ID>
       </ObjectSnapshot>
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>skHndt1bsVHsNFQmw12PwFYybxw=6/12/2016 9:01:35 PM6/12/2016 9:01:35 PM</TimeStamp>
+      <TimeStamp>dF2KMHme6oSpoKx94I6GT6eHgrM=12/10/2016 8:43:55 PM12/10/2016 7:29:40 PM</TimeStamp>
       <ID>
         <String>AW2014_Exercise</String>
       </ID>
@@ -71,5 +64,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2016-12-11T01:08:39.806667Z</LastDeployed>
+  <LastDeployed>2016-12-11T04:58:27.806667Z</LastDeployed>
 </DeploymentSnapshot>
