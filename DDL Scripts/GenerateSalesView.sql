@@ -22,6 +22,13 @@ FROM            Sales.SalesOrderHeader AS sh LEFT OUTER JOIN
                          Production.Product AS pr ON sd.ProductID = pr.ProductID LEFT OUTER JOIN
                          Production.ProductSubcategory AS ps ON pr.ProductSubcategoryID = ps.ProductSubcategoryID LEFT OUTER JOIN
                          Production.ProductCategory AS pc ON ps.ProductCategoryID = pc.ProductCategoryID  
-
-
 GO
+
+IF EXISTS (SELECT * FROM sys.database_principals WHERE name = N'NT AUTHORITY\NETWORK SERVICE') 
+DROP USER [NT AUTHORITY\NETWORK SERVICE]
+Go
+CREATE USER [NT AUTHORITY\NETWORK SERVICE] FOR LOGIN [NT AUTHORITY\NETWORK SERVICE]
+Go
+EXEC sp_addrolemember N'db_datareader', N'NT AUTHORITY\NETWORK SERVICE'
+GO
+
