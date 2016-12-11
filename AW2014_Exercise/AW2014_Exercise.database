@@ -11,6 +11,7 @@
           <Result sourcePath="[Product].[Products]" sourceType="Hierarchy" rule="12"></Result>
           <Result sourcePath="[Product]" sourceType="Dimension" rule="14"></Result>
           <Result sourcePath="[Date]" sourceType="Dimension" rule="14"></Result>
+          <Result sourcePath="[Date]" sourceType="Dimension" rule="13"></Result>
         </Results>
       </Value>
     </Annotation>
@@ -23,6 +24,7 @@
     <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
   </DataSourceImpersonationInfo>
   <Dimensions />
+  <Cubes />
   <DataSources />
   <DataSourceViews />
 </Database>

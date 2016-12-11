@@ -7,9 +7,9 @@
         <Partition dwd:design-time-name="722068ff-8f25-4d5d-8023-638e2af1233b">
           <ID>Sales</ID>
           <Name>Sales</Name>
-          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <CreatedTimestamp>0001-01-01T08:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T08:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T08:00:00Z</LastProcessed>
           <State>Unprocessed</State>
           <Source xsi:type="DsvTableBinding" dwd:design-time-name="59aa421a-3a67-41a2-8145-187b7983c7b8">
             <DataSourceViewID>AdventureWorks2014_DSV</DataSourceViewID>
@@ -25,7 +25,7 @@
       <AggregationDesigns>
         <AggregationDesign>
           <ID>Aggregation_</ID>
-          <Name>Aggregation_</Name>
+          <Name>Full Aggregation</Name>
           <CreatedTimestamp>2016-12-11T04:53:19.573333Z</CreatedTimestamp>
           <LastSchemaUpdate>2016-12-11T04:53:19.573333Z</LastSchemaUpdate>
           <EstimatedRows>121317</EstimatedRows>
@@ -45,152 +45,6 @@
                 </Attribute>
               </Attributes>
             </Dimension>
-            <Dimension>
-              <CubeDimensionID>Date</CubeDimensionID>
-              <Attributes>
-                <Attribute>
-                  <AttributeID>Date</AttributeID>
-                  <EstimatedCount>3286</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Year</AttributeID>
-                  <EstimatedCount>3287</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Quarter</AttributeID>
-                  <EstimatedCount>3287</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Month</AttributeID>
-                  <EstimatedCount>3287</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Day Of Year</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Day Of Quarter</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Day Of Month</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Month Of Year</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Month Of Quarter</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Quarter Of Year</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Year</AttributeID>
-                  <EstimatedCount>3287</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Quarter</AttributeID>
-                  <EstimatedCount>3287</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Month</AttributeID>
-                  <EstimatedCount>3287</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Day</AttributeID>
-                  <EstimatedCount>3287</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Day Of Year</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Day Of Quarter</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Day Of Month</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Month Of Year</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Month Of Quarter</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Quarter Of Year</AttributeID>
-                </Attribute>
-              </Attributes>
-            </Dimension>
-            <Dimension>
-              <CubeDimensionID>Date 1</CubeDimensionID>
-              <Attributes>
-                <Attribute>
-                  <AttributeID>Date</AttributeID>
-                  <EstimatedCount>3286</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Year</AttributeID>
-                  <EstimatedCount>3287</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Quarter</AttributeID>
-                  <EstimatedCount>3287</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Month</AttributeID>
-                  <EstimatedCount>3287</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Day Of Year</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Day Of Quarter</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Day Of Month</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Month Of Year</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Month Of Quarter</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Quarter Of Year</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Year</AttributeID>
-                  <EstimatedCount>3287</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Quarter</AttributeID>
-                  <EstimatedCount>3287</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Month</AttributeID>
-                  <EstimatedCount>3287</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Day</AttributeID>
-                  <EstimatedCount>3287</EstimatedCount>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Day Of Year</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Day Of Quarter</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Day Of Month</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Month Of Year</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Month Of Quarter</AttributeID>
-                </Attribute>
-                <Attribute>
-                  <AttributeID>Fiscal Quarter Of Year</AttributeID>
-                </Attribute>
-              </Attributes>
-            </Dimension>
           </Dimensions>
           <Aggregations>
             <Aggregation>
@@ -199,12 +53,6 @@
               <Dimensions>
                 <Dimension>
                   <CubeDimensionID>Product</CubeDimensionID>
-                </Dimension>
-                <Dimension>
-                  <CubeDimensionID>Date</CubeDimensionID>
-                </Dimension>
-                <Dimension>
-                  <CubeDimensionID>Date 1</CubeDimensionID>
                 </Dimension>
               </Dimensions>
             </Aggregation>
@@ -220,12 +68,6 @@
                     </Attribute>
                   </Attributes>
                 </Dimension>
-                <Dimension>
-                  <CubeDimensionID>Date</CubeDimensionID>
-                </Dimension>
-                <Dimension>
-                  <CubeDimensionID>Date 1</CubeDimensionID>
-                </Dimension>
               </Dimensions>
             </Aggregation>
             <Aggregation>
@@ -234,17 +76,6 @@
               <Dimensions>
                 <Dimension>
                   <CubeDimensionID>Product</CubeDimensionID>
-                </Dimension>
-                <Dimension>
-                  <CubeDimensionID>Date</CubeDimensionID>
-                  <Attributes>
-                    <Attribute>
-                      <AttributeID>Date</AttributeID>
-                    </Attribute>
-                  </Attributes>
-                </Dimension>
-                <Dimension>
-                  <CubeDimensionID>Date 1</CubeDimensionID>
                 </Dimension>
               </Dimensions>
             </Aggregation>

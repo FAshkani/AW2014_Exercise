@@ -8,7 +8,7 @@
     <TransactionalDeployment>false</TransactionalDeployment>
     <PartitionDeployment>DeployPartitions</PartitionDeployment>
     <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
-    <ProcessingOption>Default</ProcessingOption>
+    <ProcessingOption>Full</ProcessingOption>
     <OutputScript></OutputScript>
     <ImpactAnalysisFile></ImpactAnalysisFile>
     <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
@@ -33,21 +33,21 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>EZJ1I7mIIU/Stjt0AVx1q/+uJuw=12/10/2016 8:53:50 PM12/10/2016 7:29:40 PM</TimeStamp>
-        <ID>
-          <String>Date</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
         <TimeStamp>HS84lRwxPJC6XYMJi82r7krDeKA=12/10/2016 8:53:50 PM12/10/2016 8:29:48 PM</TimeStamp>
         <ID>
           <String>Product</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>DD2KTTYsG7jYqEQaVR+lS0/KfsU=12/11/2016 12:54:31 AM12/10/2016 9:25:04 PM</TimeStamp>
+        <ID>
+          <String>Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>3tsAOn2VToBtf+4/FpfpQ2A3B84=12/10/2016 8:58:19 PM12/10/2016 8:47:46 PMubOQsS1bN/gJjuJE1jBfiprnvUA=12/10/2016 8:56:05 PM12/10/2016 8:47:46 PM</TimeStamp>
+        <TimeStamp>kOVBKMxC6FVH4nMgkBxGtivKZJY=12/11/2016 12:55:47 AM12/10/2016 8:47:46 PMqSz9zXbwD7s2laUykFNBUdty9Ag=12/10/2016 9:32:33 PM12/10/2016 8:47:46 PM</TimeStamp>
         <ID>
           <String>Sales</String>
         </ID>
@@ -55,7 +55,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>dF2KMHme6oSpoKx94I6GT6eHgrM=12/10/2016 8:43:55 PM12/10/2016 7:29:40 PM</TimeStamp>
+      <TimeStamp>KPIsz1f4e80AI5YTuQzfbd3Z0r4=12/11/2016 12:54:50 AM12/10/2016 7:29:40 PM</TimeStamp>
       <ID>
         <String>AW2014_Exercise</String>
       </ID>
@@ -64,5 +64,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2016-12-11T04:58:27.806667Z</LastDeployed>
+  <LastDeployed>2016-12-11T08:56:03.286667Z</LastDeployed>
 </DeploymentSnapshot>
