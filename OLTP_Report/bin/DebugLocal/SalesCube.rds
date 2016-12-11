@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SalesCube">
-  <ConnectionProperties>
-    <Extension>OLEDB-MD</Extension>
-    <ConnectString>Data Source=.\SQLSERVER14;Initial Catalog=AW2014_Exercise</ConnectString>
-    <IntegratedSecurity>true</IntegratedSecurity>
-  </ConnectionProperties>
-  <DataSourceID>8cea4f39-797f-4b7e-add0-d204e0d5308b</DataSourceID>
-</RptDataSource>

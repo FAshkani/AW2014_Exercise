@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner" xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition">
+  <Description />
+  <DataSet Name="YearDS">
+    <Query>
+      <DataSourceReference>AdWorks2014</DataSourceReference>
+      <CommandText>SELECT DISTINCT finYear
+FROM            v_SalesByProductByCategory
+ORDER BY finYear</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="finYear">
+        <DataField>finYear</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>
