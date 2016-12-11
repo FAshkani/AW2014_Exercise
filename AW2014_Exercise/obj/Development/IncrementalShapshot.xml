@@ -19,35 +19,35 @@
     <ObjectSnapshots>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
-        <TimeStamp>/acHiZuzKep2evG6f1duqkRTtTU=12/10/2016 8:34:40 PM12/10/2016 7:29:40 PM</TimeStamp>
+        <TimeStamp>/acHiZuzKep2evG6f1duqkRTtTU=12/11/2016 4:42:06 AM12/11/2016 4:42:06 AM</TimeStamp>
         <ID>
           <String>Adventure Works DW2014</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>ii5b9N6g1SoGRqYa8rC115uyZv0=12/10/2016 8:28:45 PM12/10/2016 8:21:45 PM</TimeStamp>
+        <TimeStamp>ii5b9N6g1SoGRqYa8rC115uyZv0=12/11/2016 4:42:06 AM12/11/2016 4:42:06 AM</TimeStamp>
         <ID>
           <String>AdventureWorks2014_DSV</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>DD2KTTYsG7jYqEQaVR+lS0/KfsU=12/11/2016 12:54:31 AM12/10/2016 9:25:04 PM</TimeStamp>
-        <ID>
-          <String>Date</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>HS84lRwxPJC6XYMJi82r7krDeKA=12/11/2016 1:26:35 AM12/10/2016 8:29:48 PM</TimeStamp>
+        <TimeStamp>HS84lRwxPJC6XYMJi82r7krDeKA=12/11/2016 4:42:06 AM12/11/2016 4:42:06 AM</TimeStamp>
         <ID>
           <String>Product</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>DD2KTTYsG7jYqEQaVR+lS0/KfsU=12/11/2016 4:42:06 AM12/11/2016 4:42:06 AM</TimeStamp>
+        <ID>
+          <String>Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>kOVBKMxC6FVH4nMgkBxGtivKZJY=12/11/2016 12:55:47 AM12/10/2016 8:47:46 PMqSz9zXbwD7s2laUykFNBUdty9Ag=12/10/2016 9:32:33 PM12/10/2016 8:47:46 PM</TimeStamp>
+        <TimeStamp>kOVBKMxC6FVH4nMgkBxGtivKZJY=12/11/2016 4:42:06 AM12/11/2016 4:42:06 AMqSz9zXbwD7s2laUykFNBUdty9Ag=12/11/2016 4:42:06 AM12/11/2016 4:42:06 AM</TimeStamp>
         <ID>
           <String>Sales</String>
         </ID>
@@ -55,7 +55,7 @@
     </ObjectSnapshots>
     <DatabaseSnapshot>
       <Type>Microsoft.AnalysisServices.Database</Type>
-      <TimeStamp>KPIsz1f4e80AI5YTuQzfbd3Z0r4=12/11/2016 12:54:50 AM12/10/2016 7:29:40 PM</TimeStamp>
+      <TimeStamp>KPIsz1f4e80AI5YTuQzfbd3Z0r4=12/11/2016 4:42:06 AM12/11/2016 4:42:06 AM</TimeStamp>
       <ID>
         <String>AW2014_Exercise</String>
       </ID>
@@ -64,5 +64,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2016-12-11T09:27:33.283333Z</LastDeployed>
+  <LastDeployed>2016-12-11T13:45:28.643333Z</LastDeployed>
 </DeploymentSnapshot>
