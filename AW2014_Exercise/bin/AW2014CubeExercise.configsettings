@@ -12,10 +12,10 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>Product</ID>
+        <ID>Date</ID>
       </Dimension>
       <Dimension>
-        <ID>Date</ID>
+        <ID>Product</ID>
       </Dimension>
     </Dimensions>
     <Cubes>

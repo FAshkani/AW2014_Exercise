@@ -33,16 +33,16 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>HS84lRwxPJC6XYMJi82r7krDeKA=12/10/2016 8:53:50 PM12/10/2016 8:29:48 PM</TimeStamp>
+        <TimeStamp>DD2KTTYsG7jYqEQaVR+lS0/KfsU=12/11/2016 12:54:31 AM12/10/2016 9:25:04 PM</TimeStamp>
         <ID>
-          <String>Product</String>
+          <String>Date</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>DD2KTTYsG7jYqEQaVR+lS0/KfsU=12/11/2016 12:54:31 AM12/10/2016 9:25:04 PM</TimeStamp>
+        <TimeStamp>HS84lRwxPJC6XYMJi82r7krDeKA=12/11/2016 1:26:35 AM12/10/2016 8:29:48 PM</TimeStamp>
         <ID>
-          <String>Date</String>
+          <String>Product</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
@@ -64,5 +64,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2016-12-11T08:56:03.286667Z</LastDeployed>
+  <LastDeployed>2016-12-11T09:27:33.283333Z</LastDeployed>
 </DeploymentSnapshot>
