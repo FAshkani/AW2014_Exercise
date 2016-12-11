@@ -23,7 +23,7 @@
           </QueryParameter>
         </QueryParameters>
         <CommandText>SELECT        LineTotal, finYear, OrderQty, SalesOrderID, SalesOrderDetailID, CarrierTrackingNumber, ProductID, SpecialOfferID, UnitPrice, UnitPriceDiscount, ModifiedDate, Product, ProductCategory, ProductSubCategory, 
-                         Territory, [Group], SalesOrderNumber
+                         SalesOrderNumber
 FROM            v_SalesByProductByCategory
 WHERE        (ProductSubCategory IN (@SubCategory)) AND (finYear IN (@Year))</CommandText>
       </Query>
@@ -82,14 +82,6 @@ WHERE        (ProductSubCategory IN (@SubCategory)) AND (finYear IN (@Year))</Co
         </Field>
         <Field Name="ProductSubCategory">
           <DataField>ProductSubCategory</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="Territory">
-          <DataField>Territory</DataField>
-          <rd:TypeName>System.String</rd:TypeName>
-        </Field>
-        <Field Name="Group">
-          <DataField>Group</DataField>
           <rd:TypeName>System.String</rd:TypeName>
         </Field>
         <Field Name="SalesOrderNumber">

@@ -38,8 +38,8 @@
       <Options>
         <OutputPath>bin\DebugLocal</OutputPath>
         <TargetServerVersion>SSRS2008R2</TargetServerVersion>
-        <TargetServerURL>http://laptop-i905g85k/ReportServer</TargetServerURL>
-        <TargetFolder>OLTP_Report</TargetFolder>
+        <TargetServerURL>http://localhost/reportserver</TargetServerURL>
+        <TargetFolder>Sample Sales Report</TargetFolder>
         <TargetDataSourceFolder>Data Sources</TargetDataSourceFolder>
         <OverwriteDataSources>true</OverwriteDataSources>
         <TargetDatasetFolder>Datasets</TargetDatasetFolder>
